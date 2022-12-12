@@ -1,0 +1,20 @@
+{
+  "name": "anatoly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js", // скрипт для режима разработки в котором с помощью nodemon будем запускать файл index.js
+    "start": "node index.js" // скрипт для продакшина в котором с помощью node js будем выполнять файд index
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0", // зависимости установлены
+    "nodemon": "^2.0.20" // зависимости установлены
+  }
+}
+
+// npm init -y   инициализация
+//  npm i node-telegram-bot-api nodemon   установка пакета для взаимодействия с ботом и nodemon для автоматического перезапуска сервера при изменениях в коде
